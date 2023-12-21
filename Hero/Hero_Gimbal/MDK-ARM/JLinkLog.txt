@@ -1,0 +1,127 @@
+T8DB8 003:946.172   SEGGER J-Link V7.86d Log File
+T8DB8 003:946.224   DLL Compiled: Mar 15 2023 13:51:13
+T8DB8 003:946.229   Logging started @ 2023-09-13 12:25
+T8DB8 003:946.232 - 26.209ms
+T8DB8 003:946.238 JLINK_SetWarnOutHandler(...)
+T8DB8 003:946.243 - 0.006ms
+T8DB8 003:946.247 JLINK_OpenEx(...)
+T8DB8 003:947.445   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T8DB8 003:947.822   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T8DB8 003:949.875   Hardware: V7.00
+T8DB8 003:949.892   S/N: 20090928
+T8DB8 003:949.897   OEM: SEGGER
+T8DB8 003:949.903   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T8DB8 003:951.107   TELNET listener socket opened on port 19021
+T8DB8 003:955.307   Device "CORTEX-M4" selected.
+T8DB8 003:955.966   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T8DB8 003:956.164   WEBSRV Webserver running on local port 19080
+T8DB8 003:961.673 - 15.439ms returns "O.K."
+T8DB8 003:961.698 JLINK_GetEmuCaps()
+T8DB8 003:961.703 - 0.006ms returns 0x88EA5833
+T8DB8 003:961.712 JLINK_TIF_GetAvailable(...)
+T8DB8 003:962.003 - 0.299ms
+T8DB8 003:962.019 JLINK_SetErrorOutHandler(...)
+T8DB8 003:962.023 - 0.006ms
+T8DB8 003:962.380 JLINK_ExecCommand("ProjectFile = "C:\Users\Sai\Desktop\Release_Mosasaurus_Hero\Hero_Gimbal\MDK-ARM\JLinkSettings.ini"", ...). 
+T8DB8 003:963.356   Device "CORTEX-M4" selected.
+T8DB8 003:963.698 - 1.323ms returns 0x00
+T8DB8 003:963.713 JLINK_ExecCommand("Device = STM32F407IGHx", ...). 
+T8DB8 003:964.159   Device "STM32F407IG" selected.
+T8DB8 003:964.429 - 0.716ms returns 0x00
+T8DB8 003:964.440 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T8DB8 003:964.446 - 0.003ms returns 0x01
+T8DB8 003:964.451 JLINK_GetHardwareVersion()
+T8DB8 003:964.455 - 0.005ms returns 70000
+T8DB8 003:964.460 JLINK_GetDLLVersion()
+T8DB8 003:964.464 - 0.005ms returns 78604
+T8DB8 003:964.468 JLINK_GetOEMString(...)
+T8DB8 003:964.473 JLINK_GetFirmwareString(...)
+T8DB8 003:964.477 - 0.005ms
+T8DB8 003:964.484 JLINK_GetDLLVersion()
+T8DB8 003:964.488 - 0.005ms returns 78604
+T8DB8 003:964.492 JLINK_GetCompileDateTime()
+T8DB8 003:964.496 - 0.005ms
+T8DB8 003:964.502 JLINK_GetFirmwareString(...)
+T8DB8 003:964.505 - 0.005ms
+T8DB8 003:964.510 JLINK_GetHardwareVersion()
+T8DB8 003:964.513 - 0.005ms returns 70000
+T8DB8 003:964.519 JLINK_GetSN()
+T8DB8 003:964.522 - 0.005ms returns 20090928
+T8DB8 003:964.527 JLINK_GetOEMString(...)
+T8DB8 003:964.533 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T8DB8 003:965.066 - 0.536ms returns 0x00
+T8DB8 003:965.075 JLINK_HasError()
+T8DB8 003:965.082 JLINK_SetSpeed(1000)
+T8DB8 003:965.205 - 0.124ms
+T8DB8 003:965.541 JLINK_HasError()
+T8DB8 003:965.549 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T8DB8 003:965.554 - 0.006ms returns JLINKARM_RESET_TYPE_NORMAL
+T8DB8 003:965.559 JLINK_Reset()
+T8DB8 003:965.773   InitTarget() start
+T8DB8 003:965.784    J-Link Script File: Executing InitTarget()
+T8DB8 003:965.994   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 003:969.556   Error: Failed to initialized DAP.
+T8DB8 003:969.566   Can not attach to CPU. Trying connect under reset.
+T8DB8 004:020.317   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:024.531   Error: Failed to initialized DAP.
+T8DB8 004:024.551   Connecting to CPU via connect under reset failed.
+T8DB8 004:075.760   InitTarget() end - Took 109ms
+T8DB8 004:075.814   Connect fallback: Reset via Reset pin & Connect.
+T8DB8 004:134.161   InitTarget() start
+T8DB8 004:134.195    J-Link Script File: Executing InitTarget()
+T8DB8 004:134.417   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:138.377   Error: Failed to initialized DAP.
+T8DB8 004:138.400   Can not attach to CPU. Trying connect under reset.
+T8DB8 004:189.107   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:194.027   Error: Failed to initialized DAP.
+T8DB8 004:194.060   Connecting to CPU via connect under reset failed.
+T8DB8 004:245.253   InitTarget() end - Took 111ms
+T8DB8 004:245.306 - 279.755ms
+T8DB8 004:245.346 JLINK_GetId()
+T8DB8 004:245.885   InitTarget() start
+T8DB8 004:246.022    J-Link Script File: Executing InitTarget()
+T8DB8 004:246.698   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:250.744   Error: Failed to initialized DAP.
+T8DB8 004:250.773   Can not attach to CPU. Trying connect under reset.
+T8DB8 004:301.638   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:306.815   Error: Failed to initialized DAP.
+T8DB8 004:306.870   Connecting to CPU via connect under reset failed.
+T8DB8 004:357.957   InitTarget() end - Took 111ms
+T8DB8 004:358.005   Connect fallback: Reset via Reset pin & Connect.
+T8DB8 004:414.837   InitTarget() start
+T8DB8 004:414.866    J-Link Script File: Executing InitTarget()
+T8DB8 004:415.067   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:418.603   Error: Failed to initialized DAP.
+T8DB8 004:418.625   Can not attach to CPU. Trying connect under reset.
+T8DB8 004:469.736   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:474.172   Error: Failed to initialized DAP.
+T8DB8 004:474.203   Connecting to CPU via connect under reset failed.
+T8DB8 004:524.559   InitTarget() end - Took 109ms
+T8DB8 004:524.597 - 279.254ms returns 0x00000000
+T8DB8 004:524.626 JLINK_GetId()
+T8DB8 004:524.969   InitTarget() start
+T8DB8 004:524.997    J-Link Script File: Executing InitTarget()
+T8DB8 004:525.371   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:529.578   Error: Failed to initialized DAP.
+T8DB8 004:529.591   Can not attach to CPU. Trying connect under reset.
+T8DB8 004:580.263   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:585.215   Error: Failed to initialized DAP.
+T8DB8 004:585.236   Connecting to CPU via connect under reset failed.
+T8DB8 004:636.150   InitTarget() end - Took 111ms
+T8DB8 004:636.203   Connect fallback: Reset via Reset pin & Connect.
+T8DB8 004:696.260   InitTarget() start
+T8DB8 004:696.286    J-Link Script File: Executing InitTarget()
+T8DB8 004:696.572   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:699.826   Error: Failed to initialized DAP.
+T8DB8 004:699.845   Can not attach to CPU. Trying connect under reset.
+T8DB8 004:750.345   SWD selected. Executing JTAG -> SWD switching sequence.
+T8DB8 004:754.622   Error: Failed to initialized DAP.
+T8DB8 004:754.641   Connecting to CPU via connect under reset failed.
+T8DB8 004:806.283   InitTarget() end - Took 109ms
+T8DB8 004:806.343 - 281.724ms returns 0x00000000
+T8DB8 004:811.305 JLINK_GetFirmwareString(...)
+T8DB8 004:811.332 - 0.032ms
+T8DB8 006:428.195 JLINK_Close()
+T8DB8 006:443.361 - 15.193ms
+T8DB8 006:443.391   
+T8DB8 006:443.395   Closed
